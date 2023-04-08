@@ -24,7 +24,7 @@
         </a>
     </div>
     <div class="divider"></div>
-    <div class="credits"><a href="https://github.com/nifranz" target="_blank" rel="noopener noreferrer"> Made with <i class="fa-solid fa-heart"></i> and <i class="fa-brands fa-vuejs"></i> by <wbr><i class="fa-brands fa-github"></i> <strong>nifranz</strong></a></div>
+    <div class="credits"><a href="https://github.com/nifranz" target="_blank" rel="noopener noreferrer"> Made with <i class="fa-solid fa-heart"></i> and <i class="fa-brands fa-vuejs"></i> by <span class="github-link"><div class="fa-brands fa-github"></div> / nifranz</span></a></div>
 
 </div>
 </template>
@@ -48,6 +48,10 @@
 
 
 }
+
+.github-link {
+    display:inline-block;
+}
 .credits {
     color: white;
     font-size:25px;
@@ -57,7 +61,6 @@
     padding-top: 130px;
     padding-bottom: 130px;
 }
-
 .credits a {
     color:white;
     text-decoration: none;
@@ -86,7 +89,6 @@
 
 @media only screen and (max-width: 800px) {
     .icons {
-        transition: 1s;
         flex-direction: column;
         justify-content: unset;
         align-items: center;
@@ -96,8 +98,7 @@
 
     .icon {
         background-color:#21302d;
-        width: 80%;
-        transition: .2s;
+        width: 90%;
     }
 
     .icon:hover {
@@ -181,14 +182,9 @@
     color:#d80b0b;
 }
 
-.credits a:hover strong {
+.credits a:hover .null {
     color: #cdb589;
 }
-
-.fa-solid.fa-heart, .fa-brands.fa-vuejs {
-    transition: 1s;
-}
-
 
 
 </style>
