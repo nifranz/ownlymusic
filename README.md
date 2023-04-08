@@ -1,1 +1,1 @@
-This repository contains the source cody of my artist website https://ownlymusic.com.
+This repository contains the source code of my artist website https://ownlymusic.com.
