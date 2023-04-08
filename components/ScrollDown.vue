@@ -1,5 +1,7 @@
 <template>
-    <span class="scroll-icon"></span>
+
+      <a href="#links" class="scroll-icon"></a>
+
 </template>
 
 <script>
