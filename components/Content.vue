@@ -24,7 +24,7 @@
         </a>
     </div>
     <div class="divider"></div>
-    <div class="credits"><a href="https://github.com/nifranz" target="_blank" rel="noopener noreferrer"> Made with <i class="fa-solid fa-heart"></i> and <i class="fa-brands fa-vuejs"></i> by <span class="github-link"><i class="fa-brands fa-github"></i><strong>nifranz</strong></span></a></div>
+    <div class="credits"><a href="https://github.com/nifranz" target="_blank" rel="noopener noreferrer"> Made with <i class="fa-solid fa-heart"></i> and <i class="fa-brands fa-vuejs"></i> by <wbr><i class="fa-brands fa-github"></i> <strong>nifranz</strong></a></div>
 
 </div>
 </template>
@@ -48,10 +48,6 @@
 
 
 }
-
-.github-link {
-    flex:1;
-}
 .credits {
     color: white;
     font-size:25px;
@@ -60,8 +56,6 @@
     text-align: center;
     padding-top: 130px;
     padding-bottom: 130px;
-    display: flex;
-    align-items: center;
 }
 
 .credits a {
