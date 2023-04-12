@@ -151,7 +151,9 @@
 
 
 .icon:hover .fab.fa-instagram::before {
-    background: linear-gradient(to bottom right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+    /* background: linear-gradient(to bottom right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
