@@ -24,7 +24,7 @@
         </a>
     </div>
     <div class="divider"></div>
-    <div class="credits"><a href="https://github.com/nifranz" target="_blank" rel="noopener noreferrer"> &#60; coded with <i class="fa-solid fa-heart"></i> by <span class="github-link"><div class="fa-brands fa-github"></div> / nifranz /&#62; </span></a></div>
+    <div class="credits"><a href="https://github.com/nifranz" target="_blank" rel="noopener noreferrer"> &#60; coded with <i class="fa-solid fa-heart"></i> by <span class="github-link"><div class="fa-brands fa-github"></div>nifranz / &#62; </span></a></div>
 
 </div>
 </template>
