@@ -14,7 +14,7 @@
             <span class="fab fa-instagram"></span>
             <div class="icon-descr">Instagram</div>
         </a>  
-        <a class="icon" href="https://youtube.com/ownly4324" target="_blank" rel="noopener noreferrer">
+        <a class="icon" href="https://youtube.com/@ownly4324" target="_blank" rel="noopener noreferrer">
             <span class="fab fa-youtube"></span>
             <div class="icon-descr">YouTube</div>
         </a>
